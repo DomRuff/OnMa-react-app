@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect, useContext } from 'react';
 import Modal from './Modal';
-import { getSellerNameByProductById } from '../api/ProductController';
+import { getSellerNameByProductId } from '../api/ProductController';
 import { Context } from '../App';
 import { toast } from 'react-toastify';
 

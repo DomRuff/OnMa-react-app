@@ -78,7 +78,7 @@ export const getSellerIdByProductById = async (id) => {
 
 // Request to get all products by a seller ID
 // Uses the getUserById function from UserController
-export const getSellerNameByProductById = async (id) => {
+export const getSellerNameByProductId = async (id) => {
 
   try {
 
